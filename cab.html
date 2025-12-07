@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cab Comparison</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Cab Fare Comparison</h1>
+  </header>
+
+  <main>
+    <div class="form-section">
+      <input type="text" id="pickup" placeholder="Enter Pickup Location">
+      <input type="text" id="drop" placeholder="Enter Drop Location">
+      <button onclick="getCabPrices()">Compare Fares</button>
+    </div>
+
+    <div id="cab-results" class="results"></div>
+  </main>
+
+  <footer>
+    <button onclick="location.href='index.html'" class="back-btn">⬅ Back</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
