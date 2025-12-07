@@ -1,2 +1,14 @@
-# Deal-Drift
-# Deal-drift An all-in-one app that compares cab fares (Ola, Uber, Rapido, InDrive) and grocery prices (Zepto, Blinkit, BigBasket). Users can book rides or order groceries from multiple platforms with one payment, live tracking, order history, and auto payment split to respective platforms.
+# Smart Comparison App - Backend
+
+This is the backend server for the **Smart Comparison App** project.  
+It provides mock APIs for **cab fare comparison** and **grocery price comparison**.
+
+---
+
+## 🚀 How to Run
+
+1. Open terminal:
+   ```bash
+   cd backend
+   npm install
+   npm start

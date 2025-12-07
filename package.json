@@ -1,0 +1,13 @@
+{
+  "name": "smart-comparison-app",
+  "version": "1.0.0",
+  "description": "Cab and Grocery Comparison App for GUVI Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "cors": "^2.8.5"
+  }
+}
